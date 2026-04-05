@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Kardtest",
+            "includePath": [
+                "${workspaceRoot}/encoder",
+                "${workspaceRoot}/lcd",
+                "${workspaceRoot}/uart",
+                "${workspaceRoot}/flash",
+                "${workspaceRoot}/dacs",
+                "${workspaceRoot}/led",
+                "${workspaceRoot}/messages",
+                "${workspaceRoot}/loader",
+                "/usr/lib/avr/include"
+            ],
+            "browse": {
+                "path": []
+            },
+            "defines": [
+                "F_CPU=3686400UL",
+                "__AVR_ATmega162__",
+                "ENCODER_HIGH_RESOLUTION=0",
+                "UART_BAUD_RATE=57600"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "compilerArgs": [],
+            "cStandard": "c11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

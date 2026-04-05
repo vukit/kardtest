@@ -1,0 +1,25 @@
+version: "2"
+
+run:
+  concurrency: 4
+  timeout: 5m
+  tests: true
+
+output:
+  formats:
+    tab:
+      path: stderr
+      colors: true
+    code-climate:
+      path: ./code-quality-report.json
+
+linters:
+  default: none
+  enable:
+    - staticcheck
+  settings:
+    staticcheck:
+      checks: ["all"]
+
+issues:
+  uniq-by-line: false

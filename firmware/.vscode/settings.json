@@ -1,0 +1,17 @@
+{
+    "makefile.configureOnOpen": false,
+    "files.associations": {
+        "io.h": "c",
+        "sfr_defs.h": "c",
+        "inttypes.h": "c",
+        "crc16.h": "c",
+        "interrupt.h": "c",
+        "encoder.h": "c",
+        "delay.h": "c",
+        "flash.h": "c",
+        "messages.h": "c",
+        "stdio.h": "c",
+        "uart.h": "c",
+        "stdint.h": "c"
+    },
+}
